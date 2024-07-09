@@ -1,0 +1,14 @@
+footer{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -100px;
+    margin-bottom: 50px;
+}
+.footer-name h3{
+word-spacing: 8px;
+}
+.footer-icon img{
+    padding-right: 10px;
+}
