@@ -1,0 +1,77 @@
+@media only screen and (max-width:576px)and (min-width:300px) {
+    .nav-container{
+        padding: 0;
+        margin: 0;
+        width: 90%;
+        /* margin: 0 5%; */
+    }
+    .header-container{
+        margin-top: 50px;
+        background-size: cover;
+        height: 100%;
+    }
+    .section-header{
+        width: 80%;
+    }
+    .card{
+        display: block;
+        width: 70%;
+    }
+    .card-title{
+        text-align: center;
+        width: 80%;
+        margin: 0 2.5%;
+        padding-bottom: 30px;
+    }
+    .card-img{
+        text-align: center;
+    }
+    .card-img img{
+        width: 50%;
+    }
+    .video-container{
+        width: 90%;
+        /* margin: 2.5%; */
+    }
+    .video-container iframe{
+        width: 100%;
+    }
+    .main-target-card{
+        width: 80%;
+        display: block;
+        /* margin: 0 auto; */
+    }
+    .card1{
+        text-align: center;
+    }
+    .card2{
+        text-align: center;
+    }
+    .card3{
+        text-align: center;
+    }
+    .pad{
+        width: 80%;
+        margin: 20px 2.5%;
+    }
+    .main-next-target{
+        width: 80%;
+    }
+    .main-support-container{
+        width: 80%;
+    }
+    footer{
+        width: 100%;
+        display: block;
+    }
+    .footer-name{
+        width: 100%;
+    }
+    .footer-name h3{
+        width: 100%;
+        text-align: center;
+    }
+    .footer-icon{
+        text-align: center;
+    }
+}
