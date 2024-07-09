@@ -78,14 +78,14 @@
     border-radius: 15px;
 }
 .main-target-card .card2{
-    background-color: rgba(244, 165, 96, 0.724);
+    background-color: rgba(96, 244, 182, 0.301);
     width: 80%;
     height: 250px;
     padding: 30px;
     border-radius: 15px;
 }
 .main-target-card .card3{
-    background-color: rgb(215, 139, 197);
+    background-color: rgba(170, 126, 160, 0.339);
     width: 80%;
     height: 250px;
     padding: 30px;
@@ -99,6 +99,34 @@
     opacity: 0.7;
 }
 .main-target-card .pad a{
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+.main-next-target{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.next-target{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    border: 2px solid rgba(0, 0, 0, 0.223);
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.target-img img{
+    width: 90px;
+}
+.target-title p{
+    padding: 10px 0;
+    opacity: 0.7;
+    word-spacing: 5px;
+}
+.target-title a{
     color: black;
     font-size: 16px;
     font-weight: 600;
