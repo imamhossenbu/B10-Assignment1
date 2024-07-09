@@ -2,7 +2,7 @@
     .nav-container{
         padding: 0;
         margin: 0;
-        width: 90%;
+        width: 100%;
         /* margin: 0 5%; */
     }
     .header-container{
@@ -12,6 +12,7 @@
     }
     .section-header{
         width: 80%;
+        text-align: center;
     }
     .card{
         display: block;
@@ -19,12 +20,13 @@
     }
     .card-title{
         text-align: center;
-        width: 80%;
-        margin: 0 2.5%;
+        width: 60%;
+        margin:0 10%;
         padding-bottom: 30px;
     }
     .card-img{
         text-align: center;
+        width: 80%;
     }
     .card-img img{
         width: 50%;
@@ -37,7 +39,7 @@
         width: 100%;
     }
     .main-target-card{
-        width: 80%;
+        width: 90%;
         display: block;
         /* margin: 0 auto; */
     }
@@ -55,10 +57,15 @@
         margin: 20px 2.5%;
     }
     .main-next-target{
-        width: 80%;
+        width: 90%;
     }
     .main-support-container{
-        width: 80%;
+        width: 90%;
+    }
+    .main-support-container .input input{
+        padding: 15px 20px;
+        margin: 0;
+        border-radius: none;
     }
     footer{
         width: 100%;
