@@ -1,0 +1,50 @@
+.section-header{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-header h1{
+    font-size: 30px;
+    margin: 20px 0;
+    font-weight: 700;
+}
+.section-header p{
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 100px;
+}
+.main-header-card{
+    width: 800px;
+    margin: 0 auto;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 100px 0;
+}
+.card-title{
+    width: 50%;
+}
+.card-title h3{
+    font-size: 25px;
+    opacity: 0.7;
+    padding-bottom: 10px;
+}
+.card-title p{
+    opacity: 0.7;
+    padding-bottom: 20px;
+}
+.card-title button{
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 0.7;
+    border: 1.5px solid black;
+}
+.card-img img{
+    width: 250px;
+}
