@@ -1,9 +1,9 @@
-@media only screen and (max-width:576px)and (min-width:300px) {
+@media only screen and (max-width:576px){
     .nav-container{
         padding: 0;
         margin: 0;
         width: 100%;
-        /* margin: 0 5%; */
+        flex-direction: column;
     }
     .header-container{
         margin-top: 50px;
@@ -11,37 +11,36 @@
         height: 100%;
     }
     .section-header{
-        width: 80%;
+        width: 90%;
         text-align: center;
     }
     .card{
-        display: block;
-        width: 70%;
+        flex-direction: column;
+        width: 100%;
     }
     .card-title{
         text-align: center;
-        width: 60%;
-        margin:0 10%;
+        width: 100%;
         padding-bottom: 30px;
     }
     .card-img{
         text-align: center;
-        width: 80%;
+        width: 100%;
     }
     .card-img img{
-        width: 50%;
+        width: 100%;
     }
     .video-container{
-        width: 90%;
-        /* margin: 2.5%; */
+        width: 80%;
+         margin: 30px auto; 
     }
     .video-container iframe{
         width: 100%;
+        height: 300px;
     }
     .main-target-card{
         width: 90%;
-        display: block;
-        /* margin: 0 auto; */
+        flex-direction: column;
     }
     .card1{
         text-align: center;
@@ -54,13 +53,24 @@
     }
     .pad{
         width: 80%;
-        margin: 20px 2.5%;
+        margin: 20px auto;
     }
     .main-next-target{
         width: 90%;
     }
+    .next-target{
+        flex-direction: column;
+    }
+    .target-title{
+        width: 100%;
+        text-align: center;
+    }
+    .target-img img{
+        width: 100%;
+    }
     .main-support-container{
         width: 90%;
+        background-position: center;
     }
     .main-support-container .input input{
         padding: 15px 20px;
